@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "insta-feed-client-side-solution",
+    "id": "0f6fc864-603f-4d2c-9290-f97cb44f5556",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "insta-feed description"
+      },
+      "longDescription": {
+        "default": "insta-feed description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "insta-feed Feature",
+        "description": "The feature that activates elements of the insta-feed solution.",
+        "id": "08d9a72a-ee08-4193-9048-4c4342e06659",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/insta-feed.sppkg"
+  }
+}

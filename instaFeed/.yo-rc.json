@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "insta-feed",
+    "libraryId": "0f6fc864-603f-4d2c-9290-f97cb44f5556",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "insta-feed",
+    "solutionShortDescription": "insta-feed description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

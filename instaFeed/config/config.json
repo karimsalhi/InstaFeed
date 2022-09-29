@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "insta-feed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/instaFeed/InstaFeedWebPart.js",
+          "manifest": "./src/webparts/instaFeed/InstaFeedWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InstaFeedWebPartStrings": "lib/webparts/instaFeed/loc/{locale}.js"
+  }
+}
